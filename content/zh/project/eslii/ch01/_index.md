@@ -5,14 +5,8 @@ summary: >
 
 date: 2018-08-29T16:21:07+08:00
 lastmod: 2022-06-07T17:28:00+08:00
-type: book
-weight: 100
-draft: false
-math: true
 
-authors: ["Butters"]
-tags: ["译文"]
-categories: ["统计学习基础（译注）"]
+weight: 100
 
 ---
 

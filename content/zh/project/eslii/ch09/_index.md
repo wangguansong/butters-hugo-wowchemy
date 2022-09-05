@@ -6,15 +6,8 @@ summary: >
 date: 2018-12-28T10:12:00+08:00
 lastmod: 2022-06-14T16:25:00+08:00
 linktitle: 9 加性模型和树模型
-draft: false
-math: true
 
-type: book
 weight: 900
-
-authors: ["Butters"]
-tags: ["译文"]
-categories: ["统计学习基础（译注）"]
 
 ---
 

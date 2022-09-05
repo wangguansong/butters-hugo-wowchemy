@@ -4,18 +4,9 @@ summary: "“统计学习基础”（ESL）一书的章节目录索引，随完�
 
 date: 2018-08-27T15:18:10+08:00
 lastmod: 2019-02-28T16:20:00+08:00
-draft: false
-math: true
 
-type: book
 weight: 10
 linktitle: 目录索引
-
-authors:
-- Butters
-tags:
-- "2018"
-categories: ["统计学习基础（译注）"]
 
 ---
 
