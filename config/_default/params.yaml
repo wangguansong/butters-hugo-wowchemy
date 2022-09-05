@@ -23,7 +23,8 @@ marketing:
   analytics:
     google_analytics: ''
     google_tag_manager: 'GTM-WLD53T8'
-    baidu_tongji: ''
+    baidu_tongji: '954fd64f65f87121b1db8fb8ead32fd2'
+    microsoft_clarity: 'diqe1npnc0'
   verification:
     google: ''
     baidu: ''
