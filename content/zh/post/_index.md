@@ -9,7 +9,7 @@ cms_exclude: true
 view: 2
 
 cascade:
-  commentable: false
+  commentable: true
 
 # Optional header image (relative to `static/media/` folder).
 header:

@@ -8,6 +8,9 @@ cms_exclude: true
 #   3 = Card
 view: 2
 
+cascade:
+  commentable: true
+
 # Optional header image (relative to `static/media/` folder).
 header:
   caption: ""
