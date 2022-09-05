@@ -1,0 +1,17 @@
+
+
+{{ $commentable_page_types := site.Params.comments.commentable | default dict }}
+{{ $commentable_page_type := index $commentable_page_types .Type | default false }}
+{{ $commentable_page := (ne .Params.commentable false) | and $commentable_page_type }}
+
+{{ if $commentable_page }}
+
+<script data-isso="https://guansong.wang/isso/"
+        data-isso-lang="{{ .Site.Language.Lang }}"
+        src="https://guansong.wang/isso/js/embed.min.js"></script>
+
+<section id="isso-thread">
+  <noscript>Javascript needs to be activated to view comments.</noscript>
+</section>
+
+{{ end }}

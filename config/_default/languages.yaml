@@ -1,0 +1,19 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  contentDir: content/en
+  title: Wang Guansong
+  footer:
+    copyright:
+      notice: '© {2022} Wang Guansong'
+zh:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: 王冠嵩
+  footer:
+    copyright:
+      notice: '© {2022} 王冠嵩'

@@ -1,0 +1,14 @@
+{{ $album := (.Get "album") }}
+{{ $thumb_suffix := ( $.Page.Params.gallery_thumb_suffix ) }}
+{{ $original_suffix := ( $.Page.Params.gallery_original_suffix ) }}
+
+<div class="gallery-grid">
+  {{ range (where $.Page.Params.gallery_item "album" $album) }}
+    {{ $caption := .caption }}
+    <div class="gallery-item gallery-item--medium">
+      <a data-fancybox="gallery-{{$album}}" href="{{ .image_src }}{{ $original_suffix }}" {{ with $caption }}data-caption="{{.|markdownify|emojify|safeHTMLAttr}}"{{ end }}>
+      <img src="{{ .image_src }}{{ $thumb_suffix }}" loading="lazy" alt="{{ plainify $caption }}" >{{/* Width & height (or low res src) required for lazy loading. */}}
+      </a>
+    </div>
+  {{ end }}
+</div>
