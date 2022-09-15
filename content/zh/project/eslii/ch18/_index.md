@@ -23,7 +23,9 @@ For each of N = 100 samples, we generated p standard Gaussian features
 X with pairwise correlation 0.2. The outcome Y was generated according
 to a linear model
 
+{{< math >}}
 $$Y = \sum_{j=1}^p X_j\beta_j + \sigma\epsilon \tag{18.1}$$
+{{< /math >}}
 
 where ε was generated from a standard Gaussian distribution. For each
 dataset, the set of coefficients β j were also generated from a standard
