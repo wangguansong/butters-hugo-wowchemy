@@ -71,4 +71,6 @@ sifiers” which abounds in ad-hoc schemes for mixing methods of different
 types to achieve better performance. For a principled approach, see Kittler
 et al. (1998).
 
+https://remonstrate.wordpress.com/2012/01/08/%e9%87%8d%e8%af%bb-esl%ef%bc%88%e5%85%ab%ef%bc%89/
+
 [^1]: 原文脚注 1：两个向量之间的汉明距离（Hamming distance）为对应元素不相等的个数。

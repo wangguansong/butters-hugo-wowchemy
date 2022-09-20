@@ -24,6 +24,7 @@ linktitle: 术语对照
 | Bayes factor | 贝叶斯因子 | [7.7]({{< relref "ch07/ch07_07.md" >}}) |  |
 | Bayes rate | 贝叶斯错误率 |  | [维基](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%8F%B6%E6%96%AF%E9%94%99%E8%AF%AF%E7%8E%87) |
 | Bayesian information criterion | 贝叶斯信息量准则 | [7.7]({{< relref "ch07/ch07_07.md" >}}) |  |
+| bet on sparsity | 押宝稀疏性 | [16.2.2]({{< relref "ch16/ch16_02.md#1622-押宝稀疏性-原则" >}}) | [腾讯云](https://cloud.tencent.com/developer/news/333448) |
 | boosting (method) | 提升方法 | [10.1]({{}}) | [维基](https://zh.wikipedia.org/wiki/%E6%8F%90%E5%8D%87%E6%96%B9%E6%B3%95) |
 | bootstrap | 自助法 |  | [维基](https://zh.wikipedia.org/wiki/%E8%87%AA%E5%8A%A9%E6%B3%95) 西瓜书-p27 |
 | bumping（Bootstrap Umbrella of the Model Parameter） |  |  |  |
