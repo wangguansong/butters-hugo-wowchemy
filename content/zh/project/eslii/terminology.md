@@ -3,7 +3,7 @@ title: "统计学习基础：英文术语中译"
 summary: "“统计学习基础”（ESL）一书中的专业术语的中英文对照，随完成进度更新。"
 
 date: 2018-08-27T15:18:10+08:00
-lastmod: 2019-02-18T16:06:00+08:00
+lastmod: 2022-09-21T16:05:00+08:00
 
 weight: 20
 linktitle: 术语对照
@@ -20,7 +20,7 @@ linktitle: 术语对照
 | backward | 后向 |  | 西瓜书-248 |
 | batch learning | 批量学习 | 11.4 |  |
 | bagging（boosting aggregating） | 装袋，自助聚合 | c | d |
-| basis expansion | 基扩展 | 5 |  |
+| basis expansion | 基扩展 | [5]({{< relref "ch05/_index.md" >}}) |  |
 | Bayes factor | 贝叶斯因子 | [7.7]({{< relref "ch07/ch07_07.md" >}}) |  |
 | Bayes rate | 贝叶斯错误率 |  | [维基](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%8F%B6%E6%96%AF%E9%94%99%E8%AF%AF%E7%8E%87) |
 | Bayesian information criterion | 贝叶斯信息量准则 | [7.7]({{< relref "ch07/ch07_07.md" >}}) |  |
@@ -39,7 +39,7 @@ linktitle: 术语对照
 | ensemble learning | 集成学习 | 16 |  |
 | effective number of parameters | 有效参数个数 | [7.6]({{< relref "ch07/ch07_06.md" >}}) |  |
 | Expectation-Maximization |  |  |  |
-| expansion | 展开 |  |  |
+| expansion | 展开/扩展 |  |  |
 | extrapolation | 外推 | | [维基](https://zh.wikipedia.org/wiki/%E5%A4%96%E6%8E%A8) |
 | filter | 滤波 |  |  |
 | flexible discriminant analyais | 灵活判别分析 | 12 |  |
