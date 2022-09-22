@@ -56,6 +56,7 @@ linktitle: 术语对照
 | Huber | 休伯 |  |  |
 | indicator function | 指示函数 |  | [维基](https://zh.wikipedia.org/wiki/%E6%8C%87%E7%A4%BA%E5%87%BD%E6%95%B0) |
 | k-fold | k 折  |  |  |
+| knot | 节点 |  |  |
 | kernel method |  |  |  |
 | lasso | 套索 | [3.4]({{< relref "ch03/ch03_04.md" >}}) | [维基](https://zh.wikipedia.org/wiki/Lasso%E7%AE%97%E6%B3%95) |
 | least absolute shrinkage and selection operator | 最小绝对值收缩选择算子 | [3.4]({{< relref "ch03/ch03_04.md" >}}) | 西瓜书-p252 |
@@ -110,6 +111,7 @@ linktitle: 术语对照
 | supervised learning | 监督学习 | [1]({{< relref "ch01/_index.md" >}}) | [维基](https://zh.wikipedia.org/wiki/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0) 西瓜书-p3 |
 | support vector machine | 支持向量机 | [12]({{< relref "ch12/_index.md" >}}) |  |
 | transform | 变换 |  |  |
+| truncated power | 截断幂 | [5.2]({{< relref "ch05/ch05_02.md" >}}) |  |
 | underfitting |  |  |  |
 | universal approximator | 泛逼近器 | 11.2 |  |
 | unsupervised learning | 无监督学习 | c | [维基](https://zh.wikipedia.org/wiki/%E9%9D%9E%E7%9B%A3%E7%9D%A3%E5%BC%8F%E5%AD%B8%E7%BF%92) 西瓜书-p3 |
