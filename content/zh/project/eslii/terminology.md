@@ -81,6 +81,7 @@ linktitle: 术语对照
 | mixture discriminant analyais | 混合判别分析 | 12 |  |
 | multidimensional scaling | 多维尺度分析 | 14.8 |  |
 | nearest neighbors | 最近邻域、近邻 |  | [维基](https://zh.wikipedia.org/wiki/%E6%9C%80%E8%BF%91%E9%84%B0%E5%B1%85%E6%B3%95) 西瓜书-p225 |
+| nearest shrunken centroid | 最近收缩中心 | [18.2]({{< relref "ch18/ch18_02.md" >}}) |  |
 | neural network | 神经网络 | 11.3 |  |
 | neuron | 神经元 | 11.3 |  |
 | orthogonality | 正交 |  | [维基](https://zh.wikipedia.org/wiki/%E6%AD%A3%E4%BA%A4) |
