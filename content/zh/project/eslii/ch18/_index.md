@@ -3,77 +3,35 @@ title: 18 高维问题：p ≫ N
 summary: >
   第 649-698 页。
 
-date: 2022-06-27T10:00:00+08:00
+date: 2022-09-30T11:29:00+08:00
 
 weight: 1801
 
 ---
 
-本章的内容是在特征数量 $p$ 远大于观测样本数量 $N$ 时的预测问题，通常将其写为 $p\gg N$。这类问题已经变得越来越重要了，特别是在基因学和其他计算生物学领域中。在这个场景中我们会遇到的主要问题是高方差和过拟合。因此，通常会选择使用结构简单而且高度正则化的方法。本章的第一部分介绍在分类和回归问题中的预测，第二部分介绍特征选择和评估等更基础的问题。
+本章会讨论在特征数量 $p$ 远大于观测样本数量 $N$ 时的预测问题，通常写为 $p\gg N$。这类问题已经变得越来越重要了，特别是在基因学和其他计算生物学领域中。在这个场景中我们会遇到的主要问题是高方差和过拟合。因此，通常会选择使用结构简单而且高度正则化的方法。本章的第一部分介绍在分类和回归问题中的预测，第二部分介绍特征选择和评估等更基础的问题。
 
 {{< figure
   id="f1801"
   src="https://public.guansong.wang/eslii/ch18/eslii_fig_18_01.png"
-  title="**图 18.1**：Test-error results for simulation experiments. Shown are boxplots of the relative test errors over 100 simulations, for three different values of p, the number of features. The relative error is the test error divided by the Bayes error, σ 2 . From left to right, results are shown for ridge regression with three different values of the regularization parameter λ: 0.001, 100 and 1000. The (average) effective degrees of freedom in the fit is indicated below each plot."
+  title="**图 18.1**：模拟数据实验的测试误差结果。图中展示的是在 100 次模拟上三个不同 $p$ 值（特征个数）的相对测试误差的箱线图。相对误差是测试误差除以贝叶斯误差 $\sigma^2$。每个图中从左至右，分别是不同正则化参数 $\lambda$ 取值（$0.001$、$100$、和 $1000$）岭回归的结果。拟合中的（平均）自由度展示在了每个图的下方。"
 >}}
 
-To get us started, Figure 18.1 summarizes a small simulation study that
-demonstrates the “less fitting is better” principle that applies when p ≫ N .
-For each of N = 100 samples, we generated p standard Gaussian features
-X with pairwise correlation 0.2. The outcome Y was generated according
-to a linear model
+[图 18.1](#figure-f1801) 展示了一个小型的模拟研究，它演示了当 $p\gg N$ 时的“拟合越简单结果越好（less fitting is better）”的原则。在每个 $N=100$ 的样本集中，生成 $p$ 个标准高斯分布特征变量 $X$，两两之间相关性为 0.2。输出变量 $Y$ 由一个线性模型生成：
 
 {{< math >}}
-$$Y = \sum_{j=1}^p X_j\beta_j + \sigma\epsilon \tag{18.1}$$
+$$Y = \sum_{j=1}^p X_j\beta_j + \sigma\varepsilon \tag{18.1}$$
 {{< /math >}}
 
-where ε was generated from a standard Gaussian distribution. For each
-dataset, the set of coefficients β j were also generated from a standard
-Gaussian distribution. We investigated three cases: p = 20, 100, and 1000. The
-standard deviation σ was chosen in each case so that the signal-to-noise
-ratio Var[E(Y |X)]/σ 2 equaled 2. As a result, the number of significant
-univariate regression coefficients 1 was 9, 33 and 331, respectively, averaged
-over the 100 simulation runs. The p = 1000 case is designed to mimic the
-kind of data that we might see in a high-dimensional genomic or proteomic
-dataset, for example.
+其中的 $\varepsilon$ 来自于一个标准高斯分布。在每个数据集中，系数 $\beta_j$ 也是从一个标准高斯分布生成。我们研究了三个场景：$p=20$、$p=200$、以及 $p=1000$。标准差 $\sigma$ 的选取是使得信号噪声比率 $\operatorname{Var}[\operatorname{E}(Y|X)]/\sigma^2$ 等于 2。结果在 100 次模拟实验中取平均数，单边量回归中显著系数的个数[^1]分别是 9、33、和 331。$p=1000$ 的情况是为了模拟我们在高维问题中所面对的数据集，例如基因组数据集或蛋白组数据集。
 
-We fit a ridge regression to the data, with three different values for the
-regularization parameter λ: 0.001, 100, and 1000. When λ = 0.001, this
-is nearly the same as least squares regression, with a little regularization
-just to ensure that the problem is non-singular when p > N . Figure 18.1
-shows boxplots of the relative test error achieved by the different estimators
-in each scenario. The corresponding average degrees of freedom used in
-each ridge-regression fit is indicated (computed using formula (3.50) on
-page 68 2 ). The degrees of freedom is a more interpretable parameter than
-λ. We see that ridge regression with λ = 0.001 (20 df) wins when p = 20;
-λ = 100 (35 df) wins when p = 100, and λ = 1000 (43 df) wins when
-p = 1000.
+在数据上使用了岭回归来拟合，其中使用了三个不同的正则化参数 $\lambda$：$0.001$、$100$、和 $1000$。当 $\lambda=0.001$ 时，这于最小二乘回归几乎完全相同，其中微小的正则化只是为了保证当 $p>N$ 时求解仍是非奇异的。[图 18.1](#figure-f1801) 展示了每个场景中不同估计值得到的测试误差的箱线图。图中标记处了每个岭回归拟合所对应的平均自由度（计算公式如 68 页的[式 3.50]({{< relref "../ch03/ch03_04.md" >}})）[^2]。自由度参数与 $\lambda$ 相比更容易理解。图中可见当 $p=20$ 时，$\lambda=0.001$（20 自由度）是最优的；当 $p=100$ 时，$\lambda=100$（35 自由度）是最优的；而当 $p=1000$ 时，$\lambda=1000$（43 自由度）是最优的。
 
-Here is an explanation for these results. When p = 20, we fit all the way
-and we can identify as many of the significant coefficients as possible with
-low bias. When p = 100, we can identify some non-zero coefficients using
-moderate shrinkage. Finally, when p = 1000, even though there are many
-nonzero coefficients, we don’t have a hope for finding them and we need
-to shrink all the way down. As evidence of this, let t j = β b j / se
-b j , where β̂ j is the ridge regression estimate and se
-b j its estimated standard error. Then
-using the optimal ridge parameter in each of the three cases, the median
-value of |t j | was 2.0, 0.6 and 0.2, and the average number of |t j | values
-exceeding 2 was equal to 9.8, 1.2 and 0.0.
+以下是对这些结果的一个解释。当 $p=20$ 时，我们可以尽量地拟合，并可以较低的偏差来识别出尽可能多的显著系数。当 $p=100$ 时，我们通过适度的收缩可以识别出一部分非零的系数。最后当 $p=1000$ 时，虽然有非常多的非零系数，但我们根本无法识别出它们，并且需要尽量地进行收缩。为验证上述解释，令 $t_j=\hat{\beta}\_j/\hat{\text{se}\_j}$，其中的 $\hat{\beta}\_j$ 是岭回归的估计、$\hat{\text{se}}\_j$ 是它的估计标准差。对从小到大的三个 $p$，$|t_j|$ 的中位数分别是 $2.0$、$0.6$、和 $0.2$，$|t_j|$ 的值大于 2 的平均个数分别是 $9.8$、$1.2$、和 $0.0$。
 
-Ridge regression with λ = 0.001 successfully exploits the correlation in
-the features when p < N , but cannot do so when p ≫ N . In the latter case
-there is not enough information in the relatively small number of samples
-to efficiently estimate the high-dimensional covariance matrix. In that case,
-more regularization leads to superior prediction performance.
+当 $p<N$ 时，$\lambda=0.001$ 的岭回归可以有效地利用特征变量之间的相关性，但在 $p\gg N$ 时就无法实现。在后一种场景中，在相对小的样本中的信息不足以有效地估计高维的协方差矩阵。在这种情况下，更强的正则化能够得出更好的预测表现。
 
-Thus it is not surprising that the analysis of high-dimensional data
-requires either modification of procedures designed for the N > p scenario, or
-entirely new procedures. In this chapter we discuss examples of both kinds
-of approaches for high dimensional classification and regression; these methods
-tend to regularize quite heavily, using scientific contextual knowledge
-to suggest the appropriate form for this regularization. The chapter ends
-with a discussion of feature selection and multiple testing.
+因此就可预见在高维数据的分析中，需要对那些在 $N>p$ 的情况下使用的方法进行修改，或者要重新开发新的方法。本章将介绍这两个方向的高维数据分类和回归的各种方法；这些方法往往会加上很强的正则化，而且会利用具体问题背景中的专业知识来决定正则化恰当的形式。本章最后会讨论特征选择和多重检验（multiple testing）。
 
-[^1]: 原文脚注 1：We call a regression coefficient significant if $|\hat{\beta}\_j/\hat{se}\_j|\geq 2$, where $\hat{\beta}\_j$ is the estimated (univariate) coefficient and $\hat{se}\_j$ is its estimated standard error.
-[^2]: 原文脚注 2：For a fixed value of the regularization parameter λ, the degrees of freedom depends on the observed predictor values in each simulation. Hence we compute the average degrees of freedom over simulations
+[^1]: 原文脚注 1：回归系数显著的标准是 $|\hat{\beta}\_j/\hat{\text{se}}\_j|\geq2$，其中的 $\hat{\beta}\_j$ 是（单边量回归的）参数估计，而 $\hat{\text{se}}\_j$ 是它的估计标准差。
+[^2]: 原文脚注 2：对于正则化参数 $\lambda$ 的一个固定取值，拟合自由度依赖于每次模拟样本中观测样本预测变量的取值。因此我们在所有模拟样本上取平均的自由度。
