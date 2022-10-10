@@ -36,7 +36,39 @@ $$Y = \sum_{j=1}^p X_j\beta_j + \sigma\varepsilon \tag{18.1}$$
 [^1]: 原文脚注 1：回归系数显著的标准是 $|\hat{\beta}\_j/\hat{\text{se}}\_j|\geq2$，其中的 $\hat{\beta}\_j$ 是（单边量回归的）参数估计，而 $\hat{\text{se}}\_j$ 是它的估计标准差。
 [^2]: 原文脚注 2：对于正则化参数 $\lambda$ 的一个固定取值，拟合自由度依赖于每次模拟样本中观测样本预测变量的取值。因此我们在所有模拟样本上取平均的自由度。
 
+----------
 ### 本章练习
 
 - 练习 18.1：
 - 练习 18.2：[第 18.2 节]({{< relref "../ch18/ch18_02.md#练习-182" >}})
+
+----------
+### 参考文献
+
+Many references were given at specific points in this chapter; we give some
+additional ones here. Dudoit et al. (2002a) give an overview and comparison
+of discrimination methods for gene expression data. Levina (2002)
+does some mathematical analysis comparing diagonal LDA to full LDA, as
+p, N → ∞ with p > N . She shows that with reasonable assumptions diagonal
+LDA has a lower asymptotic error rate than full LDA. Tibshirani et al.
+(2001a) and Tibshirani et al. (2003) proposed the nearest shrunken-centroid
+classifier. Zhu and Hastie (2004) study regularized logistic regression. High-
+dimensional regression and the lasso are very active areas of research, and
+many references are given in Section 3.8.5. The fused lasso was proposed
+by Tibshirani et al. (2005), while Zou and Hastie (2005) introduced the
+elastic net. Supervised principal components is discussed in Bair and
+Tibshirani (2004) and Bair et al. (2006). For an introduction to the analysis
+of censored survival data, see Kalbfleisch and Prentice (1980).
+
+Microarray technology has led to a flurry of statistical research: see for
+example the books by Speed (2003), Parmigiani et al. (2003), Simon et al.
+(2004), and Lee (2004).
+
+The false discovery rate was proposed by Benjamini and Hochberg (1995),
+and studied and generalized in subsequent papers by these authors and694
+many others. A partial list of papers on FDR may be found on Yoav
+Benjamini’s homepage. Some more recent papers include Efron and Tibshirani
+(2002), Storey (2002), Genovese and Wasserman (2004), Storey and
+Tibshirani (2003) and Benjamini and Yekutieli (2005). Dudoit et al. (2002b)
+review methods for identifying differentially expressed genes in microarray
+studies.
