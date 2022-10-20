@@ -31,3 +31,26 @@ weight: 801
 - 练习 8.5
 - 练习 8.6
 - 练习 8.7：[第 8.5 节]({{< relref "../ch08/ch08_05.md#练习-87" >}})
+
+----------
+
+### 参考文献
+
+There are many books on classical statistical inference:
+Cox and Hinkley (1974) and Silvey (1975) give nontechnical accounts.
+The bootstrap is due to Efron (1979) and is described more fully in
+Efron and Tibshirani (1993) and Hall (1992).
+A good modern book on Bayesian inference is Gelman et al. (1995).
+A lucid account of the application of Bayesian methods to neural networks
+is given in Neal (1996).
+The statistical application of Gibbs sampling is due to
+Geman and Geman (1984), and Gelfand and Smith (1990),
+with related work by Tanner and Wong (1987).
+Markov chain Monte Carlo methods, including Gibbs sampling and
+the Metropolis-Hastings algorithm, are discussed in Spiegelhalter et al. (1996).
+The EM algorithm is due to Dempster et al. (1977); as the discussants in that
+paper make clear, there was much related, earlier work. The view of EM as
+a joint maximization scheme for a penalized complete-data log-likelihood
+was elucidated by Neal and Hinton (1998); they credit Csiszar and Tusnády
+(1984) and Hathaway (1986) as having noticed this connection earlier.
+Bagging was proposed by Breiman (1996a). Stacking is due to Wolpert (1992);
