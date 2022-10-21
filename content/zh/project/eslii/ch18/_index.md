@@ -33,10 +33,8 @@ $$Y = \sum_{j=1}^p X_j\beta_j + \sigma\varepsilon \tag{18.1}$$
 
 因此就可预见在高维数据的分析中，需要对那些在 $N>p$ 的情况下使用的方法进行修改，或者要重新开发新的方法。本章将介绍这两个方向的高维数据分类和回归的各种方法；这些方法往往会加上很强的正则化，而且会利用具体问题背景中的专业知识来决定正则化恰当的形式。本章最后会讨论特征选择和多重检验（multiple testing）。
 
-[^1]: 原文脚注 1：回归系数显著的标准是 $|\hat{\beta}\_j/\hat{\text{se}}\_j|\geq2$，其中的 $\hat{\beta}\_j$ 是（单边量回归的）参数估计，而 $\hat{\text{se}}\_j$ 是它的估计标准差。
-[^2]: 原文脚注 2：对于正则化参数 $\lambda$ 的一个固定取值，拟合自由度依赖于每次模拟样本中观测样本预测变量的取值。因此我们在所有模拟样本上取平均的自由度。
-
 ----------
+
 ### 本章练习
 
 - 练习 18.1：
@@ -45,12 +43,23 @@ $$Y = \sum_{j=1}^p X_j\beta_j + \sigma\varepsilon \tag{18.1}$$
 - 练习 18.4：[第 18.3 节]({{< relref "../ch18/ch18_03.md#练习-184" >}})
 - 练习 18.5：[第 18.3 节]({{< relref "../ch18/ch18_03.md#练习-185" >}})
 - 练习 18.6：[第 18.3 节]({{< relref "../ch18/ch18_03.md#练习-186" >}})
+- 练习 18.7：
+- 练习 18.8：
+- 练习 18.9：
+- 练习 18.10：
 - 练习 18.11：[第 18.4 节]({{< relref "../ch18/ch18_04.md#练习-1811" >}})
 - 练习 18.12：[第 18.3 节]({{< relref "../ch18/ch18_03.md#练习-1812" >}})
 - 练习 18.13：[第 18.3 节]({{< relref "../ch18/ch18_03.md#练习-1813" >}})
 - 练习 18.14：[第 18.5 节]({{< relref "../ch18/ch18_05.md#练习-1814" >}})
+- 练习 18.15：[第 18.5 节]({{< relref "../ch18/ch18_05.md#练习-1815" >}})
+- 练习 18.16：[第 18.7 节]({{< relref "../ch18/ch18_07.md#练习-1816" >}})
+- 练习 18.17：[第 18.7 节]({{< relref "../ch18/ch18_07.md#练习-1817" >}})
+- 练习 18.18：[第 18.7 节]({{< relref "../ch18/ch18_07.md#练习-1818" >}})
+- 练习 18.19：[第 18.7 节]({{< relref "../ch18/ch18_07.md#练习-1819" >}})
+- 练习 18.20：[第 18.7 节]({{< relref "../ch18/ch18_07.md#练习-1820" >}})
 
 ----------
+
 ### 参考文献
 
 Many references were given at specific points in this chapter; we give some
@@ -80,3 +89,6 @@ Benjamini’s homepage. Some more recent papers include Efron and Tibshirani
 Tibshirani (2003) and Benjamini and Yekutieli (2005). Dudoit et al. (2002b)
 review methods for identifying differentially expressed genes in microarray
 studies.
+
+[^1]: 原文脚注 1：回归系数显著的标准是 $|\hat{\beta}\_j/\hat{\text{se}}\_j|\geq2$，其中的 $\hat{\beta}\_j$ 是（单边量回归的）参数估计，而 $\hat{\text{se}}\_j$ 是它的估计标准差。
+[^2]: 原文脚注 2：对于正则化参数 $\lambda$ 的一个固定取值，拟合自由度依赖于每次模拟样本中观测样本预测变量的取值。因此我们在所有模拟样本上取平均的自由度。
