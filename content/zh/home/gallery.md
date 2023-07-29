@@ -19,17 +19,17 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2022/20220619_Dongshan/DSC03734.JPG
-  caption: 广州塔
+  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_112725.jpg
+  caption: 国际金融中心
 - album: recent
-  image_src: https://images.guansong.wang/2022/20220619_Dongshan/DSC03736.JPG
-  caption: 剪影
+  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_110048.jpg
+  caption: 赛龙舟
 - album: recent
-  image_src: https://images.guansong.wang/2022/20220603_Chaozhou/IMG_20220604_170427.jpg
-  caption: 门口
+  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_104450.jpg
+  caption: 训练
 - album: recent
-  image_src: https://images.guansong.wang/2022/20220603_Chaozhou/IMG_20220603_171925.jpg
-  caption: 下棋
+  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_195808.jpg
+  caption: 龙船宴
 ---
 
 {{< gallery_remote album="recent" >}}
