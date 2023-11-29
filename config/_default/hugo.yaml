@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# title: Academic # Website name
+# title: Academic # Defined in language.yaml
 baseurl: 'https://guansong.wang/' # Website URL
 
 ############################
@@ -15,17 +15,7 @@ hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
 
-############################
-## MODULES
-############################
-
-module:
-  proxy: https://goproxy.cn/
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-
-############################
+###########################
 ## ADVANCED
 ############################
 

@@ -1,15 +1,14 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
 appearance:
   theme_day: ocean
-  theme_night: ocean
-  font: native
-  font_size: L
+  theme_night: dark
+  mode: system
 
 # SEO
 
@@ -36,9 +35,16 @@ header:
     enable: true
     align: l
     show_logo: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: true
+    # If `show_translations` is enabled, do you wish to display the current language name?
     show_language: false
+    # Let the user override the default light/dark mode of your theme?
     show_day_night: true
+    #show_theme_chooser: true
+    # Let the user search from the nav bar?
     show_search: false
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
     highlight_active_link: true
 
 # Site footer

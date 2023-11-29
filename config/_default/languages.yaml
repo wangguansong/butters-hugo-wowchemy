@@ -7,13 +7,58 @@ en:
   languageCode: en-us
   contentDir: content/en
   title: Wang Guansong
-  footer:
-    copyright:
-      notice: '© {2022} Wang Guansong'
+  params:
+    footer:
+      copyright:
+        notice: '© {2022} Wang Guansong'
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 10
+      - name: Posts
+        url: '#posts'
+        weight: 20
+      - name: Projects
+        url: '/project/'
+        weight: 30
+      - name: Gallery
+        url: '/gallery/'
+        weight: 40
+      - name: About
+        url: '/about/'
+        weight: 50
+      - name: Contact
+        url: '#contact'
+        weight: 60
+
 zh:
   languageCode: zh-Hans
   contentDir: content/zh
   title: 王冠嵩
-  footer:
-    copyright:
-      notice: '© {2022} 王冠嵩'
+  params:
+    footer:
+      copyright:
+        notice: '© {2022} 王冠嵩'
+  menu:
+    main:
+      - name: 首页
+        url: '#about'
+        weight: 10
+      - name: 文章 
+        url: '#posts'
+        weight: 20
+      - name: 项目
+        url: '/project/'
+        weight: 30
+      - name: 相册
+        url: '/gallery/'
+        weight: 40
+      - name: 关于
+        url: '/about/'
+        weight: 50
+      - name: 联系
+        url: '#contact'
+        weight: 60
+
+
