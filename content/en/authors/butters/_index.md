@@ -2,6 +2,10 @@
 # Display name
 title: Wang, Guansong
 
+# Full name (for SEO)
+first_name: Guansong
+last_name: Wang
+
 # Is this the primary user of the site?
 superuser: true
 
@@ -58,17 +62,12 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/wangguansong
-- icon: cv
-  icon_pack: ai
-  link: "resume/resume_en_latest.html"
-
-
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: "resume/resume_en_latest.html"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
