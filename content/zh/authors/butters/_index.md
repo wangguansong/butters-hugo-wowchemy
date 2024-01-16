@@ -14,8 +14,8 @@ role: 数据工作者
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: 斯达领科
-  url: https://www.starlinke.com/
+- name: KiwiDrop
+  url: https://help.kiwidrop.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Everyone knows it's Butters.
@@ -49,13 +49,10 @@ social:
   link: 'mailto:mail@guansong.wang'
 - icon: github
   icon_pack: fab
-  link: https://github.com/wangguansong/
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.cn/injobs/in/wangguansongatspe
+  link: //github.com/wangguansong/
 - icon: weibo
   icon_pack: fab
-  link: //www.weibo.com/u/1935194357/
+  link: //weibo.com/u/1935194357/
 - icon: weixin
   icon_pack: fab
   link: //public.guansong.wang/images/WeChatQR.png

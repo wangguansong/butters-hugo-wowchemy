@@ -19,17 +19,17 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_112725.jpg
-  caption: 国际金融中心
+  image_src: https://images.guansong.wang/2023/20231231_Misc/IMG_20231223_161210.jpg
+  caption: 周末的珠江公园草坪
 - album: recent
-  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_110048.jpg
-  caption: 赛龙舟
+  image_src: https://images.guansong.wang/2023/20231125_Sanya/IMG_20231125_151234.jpg
+  caption: 大黑狗也要冲浪吗
 - album: recent
-  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_104450.jpg
-  caption: 训练
+  image_src: https://images.guansong.wang/2023/20231111_Jiaochangwei/IMG_20231111_201848.jpg
+  caption: 两两作伴
 - album: recent
-  image_src: https://images.guansong.wang/2023/20230630_Misc/IMG_20230622_195808.jpg
-  caption: 龙船宴
+  image_src: https://images.guansong.wang/2023/20231031_Misc/IMG_20231006_132614.jpg
+  caption: 在高楼大厦里大概看不到这里的花丛吧
 ---
 
 {{< gallery_remote album="recent" >}}

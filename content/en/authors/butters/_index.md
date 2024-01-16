@@ -14,8 +14,8 @@ role: Data Worker
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Starlinke
-  url: https://www.starlinke.com/
+- name: KiwiDrop
+  url: https://help.kiwidrop.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -46,22 +46,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: 'mailto:mail@guansong.wang'
 - icon: github
   icon_pack: fab
   link: //github.com/wangguansong/
-- icon: linkedin
-  icon_pack: fab
-  link: //www.linkedin.com/
 - icon: weibo
   icon_pack: fab
-  link: //www.weibo.com/u/1935194357/
+  link: //weibo.com/u/1935194357/
 - icon: weixin
   icon_pack: fab
   link: //public.guansong.wang/images/WeChatQR.png
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/wangguansong
+  link: //twitter.com/wangguansong
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
