@@ -19,17 +19,18 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231231_Misc/IMG_20231223_161210.jpg
-  caption: 周末的珠江公园草坪
+  image_src: https://images.guansong.wang/2024/20240430_Misc/IMG_20240413_161824.jpg
+  caption: 广东村子里小孩子的复合业务：弹弹球抽奖和农家蔬菜摊
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231125_Sanya/IMG_20231125_151234.jpg
-  caption: 大黑狗也要冲浪吗
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240406_103634.jpg
+  caption: 海口海边的篮球场
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231111_Jiaochangwei/IMG_20231111_201848.jpg
-  caption: 两两作伴
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_150906.jpg
+  caption: 海口，Hai Hao
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231031_Misc/IMG_20231006_132614.jpg
-  caption: 在高楼大厦里大概看不到这里的花丛吧
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_160737.jpg
+  caption: 水桶里泡澡的小孩
+
 ---
 
 {{< gallery_remote album="recent" >}}

@@ -1,6 +1,6 @@
 ---
 date: 2017-04-23
-lastmod: 2022-02-24
+lastmod: 2024-05-17
 draft: false
 tags: ["2017", "2018", "reading"]
 title: "Re-reading A Song of Ice and Fire"
@@ -31,7 +31,7 @@ Here I'm going to keep records of my progress and favorite quotes.
 - A Clash of Kings: 2017-05-21 ~ 2017-11-04
 - A Storm of Swords: 2017-11-04 ~ 2018-08-15
 - A Feast for Crows: 2018-08-15 ~ 2022-01-01
-- A Dance with Dragons: 2022-01-01 ~ Ongoing
+- A Dance with Dragons: 2022-01-01 ~ 2024-05-10
 
 ------
 

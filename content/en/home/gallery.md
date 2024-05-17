@@ -19,17 +19,18 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231231_Misc/IMG_20231223_161210.jpg
-  caption: The lawn in the Zhujiang Park in a sunny weekend
+  image_src: https://images.guansong.wang/2024/20240430_Misc/IMG_20240413_161824.jpg
+  caption: A group of kids in the village setting up multiple business, lottery and homegrown vegetables.
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231125_Sanya/IMG_20231125_151234.jpg
-  caption: Do you want to surf too, Blackie?
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240406_103634.jpg
+  caption: Baseketball courts by the beach in Haikou
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231111_Jiaochangwei/IMG_20231111_201848.jpg
-  caption: Double date
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_150906.jpg
+  caption: Is it Haikou, or Haihao?
 - album: recent
-  image_src: https://images.guansong.wang/2023/20231031_Misc/IMG_20231006_132614.jpg
-  caption: People in those skyscrapers probably won't be able to see the blossom here.
+  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_160737.jpg
+  caption: A boy bathing in a basket and his sister
+
 ---
 
 {{< gallery_remote album="recent" >}}
