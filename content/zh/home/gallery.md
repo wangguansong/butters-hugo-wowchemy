@@ -19,17 +19,17 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2024/20240430_Misc/IMG_20240413_161824.jpg
-  caption: 广东村子里小孩子的复合业务：弹弹球抽奖和农家蔬菜摊
+  image_src: https://images.guansong.wang/2024/20241001_National_Day/IMG_20241004_171048.jpg
+  caption: 一起爬山的好朋友。多年以后，他们是否会想起这个无忧无虑的下午？
 - album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240406_103634.jpg
-  caption: 海口海边的篮球场
+  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241109_203414.jpg
+  caption: 广州财富
 - album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_150906.jpg
-  caption: 海口，Hai Hao
+  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241116_163015_1.jpg
+  caption: 小 C++ 程序员
 - album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_160737.jpg
-  caption: 水桶里泡澡的小孩
+  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241123_175246.jpg
+  caption: 老猴子会和小猴子讲它如何看着这一片高楼建起来的故事吗？
 
 ---
 
