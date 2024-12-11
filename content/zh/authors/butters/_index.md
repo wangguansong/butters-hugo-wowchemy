@@ -10,12 +10,12 @@ last_name: 王
 superuser: true
 
 # Role/position/tagline
-role: 数据工作者
+role: 外包仔
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: KiwiDrop
-  url: https://help.kiwidrop.com/
+- name: 中软国际
+  url: https://www.chinasofti.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Everyone knows it's Butters.

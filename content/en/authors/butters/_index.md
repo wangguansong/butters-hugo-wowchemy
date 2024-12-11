@@ -10,12 +10,12 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-role: Data Worker
+role: Contractor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: KiwiDrop
-  url: https://help.kiwidrop.com/
+- name: ChinaSoftI
+  url: https://www.chinasofti.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
