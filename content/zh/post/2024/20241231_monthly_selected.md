@@ -19,7 +19,7 @@ gallery_item:
 
 - album: junhexu
   image_src: https://images.guansong.wang/2024/20241231_Misc/IMG_20241208_135948.jpg
-  caption: 一颗盛开的异木棉。最近广州蓝天很多，不过这个冬天广州异常的干。
+  caption: 一棵盛开的异木棉。最近广州蓝天很多，不过这个冬天广州异常的干。
 - album: junhexu
   image_src: https://images.guansong.wang/2024/20241231_Misc/IMG_20241208_140109.jpg
   caption: 平和大押，游人不多。
@@ -38,7 +38,7 @@ gallery_item:
   caption: 石马桃花公园里的一个民国碉堡，可以进去。
 - album: shima 
   image_src: https://images.guansong.wang/2024/20241231_Misc/IMG_20241208_155837.jpg
-  caption: 石马村外种植桃树的田地，其中总会有一块很多王棕树的地方。
+  caption: 石马村外种植桃树的田地，其中总会有一块很多王棕树的地方。看起来和广州似的，城中村包围着 CBD。
 - album: shima 
   image_src: https://images.guansong.wang/2024/20241231_Misc/IMG_20241208_155302.jpg
   caption: 王棕树也被叫做大王椰。离近看，树干上会有被掏出的方洞，似乎是在采集树胶之类的。
