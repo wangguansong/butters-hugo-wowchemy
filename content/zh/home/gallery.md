@@ -19,17 +19,17 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241001_National_Day/IMG_20241004_171048.jpg
-  caption: 一起爬山的好朋友。多年以后，他们是否会想起这个无忧无虑的下午？
+  image_src: https://images.guansong.wang/2025/20250125_Shenyang/IMG_20250131_111356.jpg
+  caption: 大雪男人，大雪女人，和很多小雪人儿童。
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241109_203414.jpg
-  caption: 广州财富
+  image_src: https://images.guansong.wang/2025/20250125_Shenyang/IMG_20250125_135031.jpg
+  caption: 一位老先生在东北方言墙前面，认真地写着笔记。
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241116_163015_1.jpg
-  caption: 小 C++ 程序员
+  image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250118_133904.jpg
+  caption: 大白好奇地看着刚开放的茶花。
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241123_175246.jpg
-  caption: 老猴子会和小猴子讲它如何看着这一片高楼建起来的故事吗？
+  image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250101_170531_1.jpg
+  caption: 两个人在游人环绕的花城广场上，正正的坐在新中轴线上。
 
 ---
 

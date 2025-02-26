@@ -19,31 +19,17 @@ gallery_thumb_suffix: "!medium"
 gallery_original_suffix: "!original"
 gallery_item:
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241001_National_Day/IMG_20241004_171048.jpg
-  caption: A group of kids climbing hill together. Will they miss this happy afternoon after a few years?
+  image_src: https://images.guansong.wang/2025/20250125_Shenyang/IMG_20250131_111356.jpg
+  caption: Snow-man, Snow-woman, and so many Snow-kids.
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241109_203414.jpg
-  caption: Wealth of Guangzhou (written on a tour boat)
+  image_src: https://images.guansong.wang/2025/20250125_Shenyang/IMG_20250125_135031.jpg
+  caption: An elder man is taking notes in front of the wall of northeastern idioms.
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241116_163015_1.jpg
-  caption: Junior C++ Engineer
+  image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250118_133904.jpg
+  caption: White takes some curious looks on the blossoming camellia.
 - album: recent
-  image_src: https://images.guansong.wang/2024/20241130_Misc/IMG_20241123_175246.jpg
-  caption: Will the old tell the young that he witnessed how those skyscrapers were bulit along the years?
-
-
-- album: recent
-  image_src: https://images.guansong.wang/2024/20240430_Misc/IMG_20240413_161824.jpg
-  caption: A group of kids in the village setting up multiple business, lottery and homegrown vegetables.
-- album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240406_103634.jpg
-  caption: Baseketball courts by the beach in Haikou
-- album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_150906.jpg
-  caption: Is it Haikou, or Haihao?
-- album: recent
-  image_src: https://images.guansong.wang/2024/20240404_Haikou/IMG_20240405_160737.jpg
-  caption: A boy bathing in a basket and his sister
+  image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250101_170531_1.jpg
+  caption: Two people are sitting right on the new central axis of Guangzhou, with tourists walking around.
 
 ---
 
