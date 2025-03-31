@@ -58,10 +58,10 @@ gallery_item:
   
 - album: guoqiang
   image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250118_161212.jpg
-  caption:
+  caption: 逢源街上的国强粥粉面
 - album: guoqiang
   image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250118_154810.jpg
-  caption:
+  caption: 猪杂汤粉，牛三星汤，招牌艇仔粥，干炒牛河
 
 - album: liwan
   image_src: https://images.guansong.wang/2025/20250131_Misc/IMG_20250118_162758.jpg
